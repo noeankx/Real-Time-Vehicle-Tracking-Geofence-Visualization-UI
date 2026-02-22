@@ -1,9 +1,9 @@
 # Real-Time Vehicle Tracking & Geofence Visualization
 
-## 🚀 Project Overview
+##  Project Overview
 A comprehensive Monitoring Dashboard for enterprise vehicle fleets. This application provides real-time GPS telemetry visualization, automated geofence event detection, and a centralized command center for operational teams.
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### 1. Robust Frontend Foundation
 - **React (Vite)**: Selected for its lightning-fast HMR and efficient component-based architecture.
@@ -21,7 +21,7 @@ A comprehensive Monitoring Dashboard for enterprise vehicle fleets. This applica
     - **Dynamic Overlays**: Office and Pickup geofences with event-based highlighting.
     - **Smart Polylines**: Visual distinction between planned and completed route segments.
 
-## 🧠 Technical Discussion Areas (PDF Requirements)
+##  Technical Discussion Areas (PDF Requirements)
 
 ### 1. WebSocket & Real-Time Rendering
 To manage hundreds of simultaneously updating markers, this implementation:
@@ -43,18 +43,14 @@ For scenarios with 2,500+ geofences:
 - **Heartbeat Monitoring**: The dashboard tracks the "Last Updated" timestamp of the simulation. If updates stop, a "Telemetry Offline" warning appears in the Alert Ticker.
 - **Delta Playback**: Upon reconnection, the system is designed to "catch up" by replaying buffered location updates, ensuring no geofence entry events are missed.
 
-## ✨ Key Features
+##  Key Features
 - **Live Command Center**: Real-time stats for trips 'In Transit', 'In Office', and 'Approaching Pickup'.
 - **Interactive Multi-Filter**: Search by Driver, Trip ID, or filter by operational status.
 - **Smart Alert Feed**: Clickable live ticker that pans the map to active incidents.
 - **Dynamic Notifications**: "In-situ" map cards that appear when vehicles arrive at pickup points.
 - **Historical Analysis**: Bonus feature allowing for route playback at variable speeds (1x, 5x, 10x).
 
-## 🛠️ Local Development
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Launch development server: `npm run dev`
-4. Production build: `npm run build`
+
 
 ---
 *Developed for MoveInSync Technical Evaluation.*
